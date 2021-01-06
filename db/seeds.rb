@@ -7,9 +7,15 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Artist.create([
-    { name: 'Macklemore', img_url: "https://imgur.com/JTT0QGE" }
+    { name: 'Macklemore', img_url: "https://imgur.com/JTT0QGE" },
+    { name: 'Limp Bizkit', img_url: 'https://imgur.com/btQ3xBe' },
+    { name: 'System Of A Down', img_url: 'https://imgur.com/rQoqrqU' },
+    { name: 'Evanescence', img_url: 'https://imgur.com/ecdLY3z' },
 ])
 
 Song.create([
-    { name: 'Thrift Shop', quote: 'They call me Macklemore in SEI Curosity class...Cuz I am like WHAT WHAT WHAT WHAT?' }
+    { name: 'Thrift Shop', quote: 'They call me Macklemore in SEI Curosity class...Cuz I am like WHAT WHAT WHAT WHAT?' },
+    { name: 'Break Stuff', quote: 'It’s Just One of those Days ' },
+    { name: 'Chop Suey!', quote: 'Wake up! ' },
+    { name: 'Wake Me Up Inside!', quote: 'Wake Me Up!' },
 ])
