@@ -14,8 +14,8 @@ Artist.create([
 ])
 
 Song.create([
-    { name: 'Thrift Shop', quote: 'They call me Macklemore in SEI Curosity class...Cuz I am like WHAT WHAT WHAT WHAT?' },
-    { name: 'Break Stuff', quote: 'It’s Just One of those Days ' },
-    { name: 'Chop Suey!', quote: 'Wake up! ' },
-    { name: 'Wake Me Up Inside!', quote: 'Wake Me Up!' },
+    { name: 'Thrift Shop', quote: 'They call me Macklemore in SEI Curosity class...Cuz I am like WHAT WHAT WHAT WHAT?', artist_id: 1 },
+    { name: 'Break Stuff', quote: 'It’s Just One of those Days ', artist_id: 2 },
+    { name: 'Chop Suey!', quote: 'Wake up! ', artist_id: 3 },
+    { name: 'Wake Me Up Inside!', quote: 'Wake Me Up!', artist_id: 4 },
 ])
