@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Artist.create([
-    { name: 'Macklemore' }
+    { name: 'Macklemore', img_url: "https://imgur.com/JTT0QGE" }
 ])
 
 Song.create([
