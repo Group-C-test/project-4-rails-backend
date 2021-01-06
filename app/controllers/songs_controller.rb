@@ -5,7 +5,7 @@ class SongsController < ApplicationController
   def index
     @songs = Song.all
 
-    render json: @songs.to_json(include: :artists)
+    render json: @songs
   end
 
   # GET /songs/1
