@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Artist.create([
+    { name: 'Macklemore' }
+])
+
+Song.create([
+    { name: 'Thrift Shop', quote: 'They call me Macklemore in SEI Curosity class...Cuz I am like WHAT WHAT WHAT WHAT?' }
+])
