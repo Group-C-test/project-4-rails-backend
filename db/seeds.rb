@@ -7,11 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Artist.create([
-    { name: 'Macklemore', img_url: "https://i.imgur.com/JTT0QGE.png" },
-    { name: 'Limp Bizkit', img_url: 'https://i.imgur.com/btQ3xBe.jpg' },
-    { name: 'System Of A Down', img_url: 'https://i.imgur.com/rQoqrqU.jpg' },
-    { name: 'Evanescence', img_url: 'https://i.imgur.com/ecdLY3z.png' },
-    { name: 'Greenday', img_url: 'https://i.imgur.com/iN0xUv0.jpg' }
+    { name: 'Macklemore', img_url: "https://i.imgur.com/JTT0QGEm.png" },
+    { name: 'Limp Bizkit', img_url: 'https://i.imgur.com/btQ3xBem.jpg' },
+    { name: 'System Of A Down', img_url: 'https://i.imgur.com/rQoqrqUm.jpg' },
+    { name: 'Evanescence', img_url: 'https://i.imgur.com/ecdLY3zm.png' },
+    { name: 'Greenday', img_url: 'https://i.imgur.com/iN0xUv0m.jpg' }
 ])
 
 Song.create([
